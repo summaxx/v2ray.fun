@@ -33,10 +33,10 @@ fi
 #克隆V2ray.fun项目
 cd /usr/local/
 rm -R v2ray.fun
-git clone https://github.com/FunctionClub/v2ray.fun
+git clone https://github.com/summaxx/v2ray.fun
 
 #安装V2ray主程序
-bash <(curl -L -s https://install.direct/go.sh)
+bash <(curl -L -s https://raw.githubusercontent.com/summaxx/v2ray.fun/master/go.sh)
 
 #配置V2ray初始环境
 cp /usr/local/v2ray.fun/v2ray /usr/local/bin
